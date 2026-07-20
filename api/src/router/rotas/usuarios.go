@@ -1,4 +1,4 @@
-package rotasgo
+package rotas
 
 import (
 	"api/src/controllers"

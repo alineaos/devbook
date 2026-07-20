@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-func main(){
+func main() {
 	fmt.Println("Rodando API!")
 
 	r := router.Gerar()
