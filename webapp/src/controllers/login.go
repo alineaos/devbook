@@ -32,4 +32,5 @@ func FazerLogin(w http.ResponseWriter, r *http.Request) {
 	token, _ := io.ReadAll(response.Body)
 
 	fmt.Println(response.StatusCode, string(token))
+
 }
